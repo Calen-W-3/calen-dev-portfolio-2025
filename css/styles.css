@@ -4217,6 +4217,13 @@ textarea.form-control-lg {
   margin-bottom: 0;
 }
 
+.card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 6; /* number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .card-text:last-child {
   margin-bottom: 0;
 }
